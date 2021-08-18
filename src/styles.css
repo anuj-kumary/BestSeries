@@ -1,15 +1,21 @@
 .App {
   font-family: sans-serif;
-  /* text-align: center; */
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
 }
 body {
   margin: 2rem;
   background-color: #111;
+  color: #111;
+}
+h1 {
   color: #fff;
 }
 button {
   padding: 0.5rem 1rem;
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0;
   border-radius: 5px;
   outline: none;
   border-style: none;
@@ -25,14 +31,34 @@ li {
   align-items: top;
   margin-bottom: 1rem;
   border-radius: 1rem;
+  background-color: #d1d5db;
 }
 img {
-  min-height: 200px;
-  width: 200px;
+  min-height: 150px;
+  width: 100px;
   object-fit: fill;
   padding: 1rem 0rem 1rem 1rem;
   border-radius: 10%;
 }
 ul {
   padding-inline-start: 0;
+}
+p {
+  text-align: start;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+@media (max-width: 500px) {
+  button {
+    margin: 0.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  img {
+    width: 88%;
+  }
+  li {
+    display: block;
+  }
 }

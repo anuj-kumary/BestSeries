@@ -87,7 +87,6 @@ const AllSeries = {
 };
 
 let genreName = Object.keys(AllSeries);
-console.log(genreName);
 
 export default function App() {
   const [seriesList, setSeriesList] = useState(AllSeries.Crime);
@@ -109,7 +108,7 @@ export default function App() {
         <div style={{ padding: "0rem 1rem" }}>
           <h3>{title}</h3>
           <p>{desc}</p>
-          <p>{rating}</p>
+          <p>Rating : {rating}</p>
         </div>
       </li>
     );
@@ -118,10 +117,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>
-        {" "}
         <span role="img" aria-label="emoji">
           📺
-        </span>{" "}
+        </span>
         Best Web Series
       </h1>
       {genreName.map((genre) => {

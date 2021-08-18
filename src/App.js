@@ -31,12 +31,12 @@ const AllSeries = {
   ],
   Drama: [
     {
-      Title: "Kota Factory",
+      Title: "Aspirants",
       Image:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Kota_Factory_poster.jpg/250px-Kota_Factory_poster.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/TVF_Aspirants_Poster.jpeg/250px-TVF_Aspirants_Poster.jpeg",
       Description:
-        "It is the first black and white web series in India. The show follows the life of 16-year-old Vaibhav who moves to Kota to get into IIT.",
-      Rating: `9/10`
+        "TVF Aspirants is about the past and present of three friends, Abhilash, Guri and SK, who are UPSC aspirants. The past explains their UPSC Aspirant life in Old Rajinder Nagar, Delhi and their struggle to crack the examination, while the present examines their lives outside the Rajinder Nagar as adults.",
+      Rating: `9.7/10`
     },
 
     {
@@ -68,12 +68,12 @@ const AllSeries = {
       Rating: `9.5/10`
     },
     {
-      Title: "Sacred Games",
+      Title: "Loki",
       Description:
-        "A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.",
+        "Loki, the God of Mischief, steps out of his brother's shadow to embark on an adventure that takes place after the events of Avengers: Endgame.",
       Image:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Sacred_Games_Title.png/250px-Sacred_Games_Title.png",
-      Rating: `8.7/10`
+        "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Loki_%28TV_series%29_logo.png/250px-Loki_%28TV_series%29_logo.png",
+      Rating: `8.4/10`
     },
     {
       Title: "Mirzapur ",
